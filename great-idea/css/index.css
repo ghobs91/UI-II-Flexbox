@@ -71,15 +71,23 @@ h1, h2, h3, h4, h5 {
 
 /* header */
 
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
 header nav {
-  display: inline-block;
-  width: 691px;
-  vertical-align: top;
+  display: flex;
+  width: 80%;
+  /* vertical-align: top; */
   margin-top: 35px;
 }
 
 header nav a {
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: 65px;
   font-size: 14px;
   color: gray;
@@ -99,11 +107,19 @@ header nav a:last-child {
 }
 
 header .logo {
-  display: inline-block;
-  margin-top: 25px;
+	width: 20%;
+	margin-top: 25px;
 }
 
 /* cta */
+
+.cta {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
 
 .cta .cta-text {
   display: inline-block;
