@@ -230,6 +230,7 @@ footer {
 .services-cta{
 	display: flex;
 	flex-direction: column;
+	padding-bottom: 80px;
 }
 
 .services-cta img {
@@ -238,4 +239,33 @@ footer {
 
 .services-cta div {
 	padding-top: 20px;
+}
+
+.services-list{
+	display: flex;
+	flex-direction: column;
+}
+
+.services-row {
+	display:flex;
+	flex-direction: row;
+}
+
+.services-box{
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: flex-start;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 20px;
+	background-color: lightgray;
+}
+
+.learn-more-button{
+	padding: 10px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
 }
