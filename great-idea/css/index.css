@@ -269,3 +269,24 @@ footer {
 	border-radius: 5px;
 	background-color: white;
 }
+
+.services-facts{
+	display: flex;
+	flex-direction: row;
+}
+
+.services-facts-text{
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 20px;
+	margin: 20px;
+}
+
+.services-info-img {
+	padding: 20px;
+}
+
+.services-facts-text-component{
+	padding: 5px;
+}
