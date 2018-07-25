@@ -222,3 +222,20 @@ footer {
 	text-align: center;
 	font-size: 14px;
 }
+
+/*Services Page*/
+
+/*Services CTA*/
+
+.services-cta{
+	display: flex;
+	flex-direction: column;
+}
+
+.services-cta img {
+	padding-top: 20px;
+}
+
+.services-cta div {
+	padding-top: 20px;
+}
